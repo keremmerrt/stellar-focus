@@ -63,6 +63,6 @@ Live on Google Play since summer 2026. App blocking for Android is in developmen
 
 ## How it is made
 
-I decide what goes into each version and test every build before it reaches Google Play. The code is developed with AI assistance.
+I decide what goes into each version and test every build before it reaches Google Play. I develop it with AI assistance.
 
 Made by Kerem Mert at Kerch Labs. [LinkedIn](https://www.linkedin.com/in/keremmert06/)
