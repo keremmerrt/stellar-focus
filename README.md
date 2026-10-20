@@ -59,7 +59,7 @@ Sign-up asks for a date of birth because accounts are for ages 13 and up. The ch
 
 ## Privacy
 
-The [privacy policy](https://keremmerrt.github.io/stellar-focus-privacy/) lists what stays on the phone, what is backed up to the account and how to [delete an account](https://keremmerrt.github.io/stellar-focus-privacy/account_deletion.html).
+The [privacy policy](https://keremmerrt.github.io/stellar-focus/) lists what stays on the phone, what is backed up to the account and how to [delete an account](https://keremmerrt.github.io/stellar-focus/account_deletion.html).
 
 ## Status
 
