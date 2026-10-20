@@ -57,6 +57,10 @@ Giving up costs that session and leaves a dead star, but nothing you already ear
 
 Sign-up asks for a date of birth because accounts are for ages 13 and up. The check runs on the phone, and the date is never stored or sent.
 
+## Privacy
+
+The [privacy policy](https://keremmerrt.github.io/stellar-focus-privacy/) lists what stays on the phone, what is backed up to the account and how to [delete an account](https://keremmerrt.github.io/stellar-focus-privacy/account_deletion.html).
+
 ## Status
 
 Live on Google Play since summer 2026. App blocking for Android is in development.
