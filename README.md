@@ -47,6 +47,16 @@ A foreground service written in Kotlin keeps the timer running while the app is 
 
 State management uses Riverpod with code generation, and routing uses go_router. The project has more than 160 automated unit and widget tests.
 
+## Why I built it this way
+
+The local database is Drift, on top of SQLite. I picked it over Isar because the data is relational: sessions point to the objects they produced and to the Stardust ledger entries they created, and I wanted joins, sums and versioned migrations.
+
+Supabase won over Firebase for a similar reason. The cloud copy has the same shape, so Postgres fits it, and row-level security keeps each user to their own rows without a server of my own in between. I also did not want a focus app to send analytics into an ad network, which ruled out Firebase Analytics.
+
+Giving up costs that session and leaves a dead star, but nothing you already earned is taken away. Wiping progress after one failed session would be too discouraging for an app that is meant to motivate.
+
+Sign-up asks for a date of birth because accounts are for ages 13 and up. The check runs on the phone, and the date is never stored or sent.
+
 ## Status
 
 Live on Google Play since summer 2026. App blocking for Android is in development.
